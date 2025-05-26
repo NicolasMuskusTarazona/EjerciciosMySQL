@@ -1,0 +1,17 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "192.168.99.100",
+      "port": 3307,
+      "driver": "MySQL",
+      "name": "MySQL Docker",
+      "database": "clubfutbol",
+      "username": "root",
+      "password": "admin"
+    }
+  ]
+}
