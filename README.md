@@ -10,6 +10,8 @@ Paralelamente, el club organiza torneos y partidos amistosos que requieren coord
 
 Dado el alto grado de interdependencia entre atletas, programas de entrenamiento, eventos y patrocinios, se contemplará el uso de tablas intermedias para representar relaciones muchos a muchos (por ejemplo, jugadores inscritos en varios programas o eventos patrocinados por diversas entidades). Estas tablas auxiliares garantizarán la integridad referencial y facilitarán la aplicación de las reglas de negocio.
 
+![Club](./1.png)
+
 ### Rúbrica
 
 | Criterio                                      | 0 pts (Insuficiente)                              | 50 pts (Aceptable)                                           | 100 pts (Excelente)                                          | Ponderación |
@@ -27,6 +29,8 @@ Por otro lado, los movimientos de stock deberán reflejar tanto las entradas (po
 
 Para garantizar la integridad y evitar redundancias, se utilizarán tablas intermedias en las relaciones que implican cardinalidades de muchos a muchos. Por ejemplo, al asociar múltiples productos a un solo movimiento o al enlazar los distintos tipos de producto con sus categorías, estas tablas puente asegurarán un diseño normalizado.
 
+![Inventario](./2.png)
+
 ### Rúbrica
 
 | Criterio                                      | 0 pts (Insuficiente)                                       | 50 pts (Aceptable)                                           | 100 pts (Excelente)                                          | Ponderación |
@@ -42,7 +46,7 @@ El CineCampus, una sala universitaria de cine, desea contar con una aplicación 
 
 Paralelamente, el CineCampus necesita manejar el catálogo de intérpretes, relacionando actores y actrices con las producciones en las que participan, así como especificar el tipo de papel que desempeñan (protagonista, secundario, extra, etc.). Para soportar estos vínculos muchos-a-muchos, se prevé el uso de tablas intermedias que permitan asignar múltiples formatos a una misma película y asociar varios intérpretes a cada título sin duplicar datos.
 
-
+![Cine](./3.png)
 
 ### Rúbrica
 
@@ -53,3 +57,6 @@ Paralelamente, el CineCampus necesita manejar el catálogo de intérpretes, rela
 | **Normalización mínima en 3FN**               | Datos repetidos y dependencias no clave.  | Eliminadas redundancias simples, pero persisten dependencias parciales. | Cumple estrictamente 3FN: cada atributo depende solo de la PK de su tabla, sin redundancias. | 25 %        |
 | **Diagrama ER en StarUML**                    | Ausente o ilegible.                       | Diagrama correcto pero con notación inconsistente o poco claro. | Diagrama limpio, legible, notación estándar UML, exportación a imagen y archivo de proyecto. | 25 %        |
 
+## Descarga MDJ ER Diagramas
+
+[MDJ](./Actividad4.mdj)
