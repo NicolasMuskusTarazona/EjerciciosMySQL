@@ -25,6 +25,19 @@
       "database": "sistema_kardex",
       "username": "root",
       "password": "admin"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "192.168.99.100",
+      "port": 3307,
+      "driver": "MySQL",
+      "name": "MySQL Docker - Cine - Campus",
+      "database": "cinecampus",
+      "username": "root",
+      "password": "admin"
     }
   ]
 }
