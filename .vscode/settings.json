@@ -8,8 +8,21 @@
       "server": "192.168.99.100",
       "port": 3307,
       "driver": "MySQL",
-      "name": "MySQL Docker",
+      "name": "MySQL Docker - ClubFutbol",
       "database": "clubfutbol",
+      "username": "root",
+      "password": "admin"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "192.168.99.100",
+      "port": 3307,
+      "driver": "MySQL",
+      "name": "MySQL Docker - Sistema Kardex",
+      "database": "sistema_kardex",
       "username": "root",
       "password": "admin"
     }
